@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .topic-section .topics .Read-More{
         bottom: 25%;
         left: 40%;
@@ -7,7 +7,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     body{
         background-color: #e2eafa;
         
@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .topmost{
         background-color: inherit;
         margin-bottom: 0px;
@@ -25,7 +25,7 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .top-background{
         background-image: url(./images/study.jpg);
         background-repeat: no-repeat;
@@ -50,7 +50,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     #logo{
     align-items: flex-start;
     justify-content: flex-start;
@@ -63,14 +63,33 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .topnav .dropbtn{
     width: 95%;
     }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .litaf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .affiliates{
+        padding: 10px;
+        margin-top: 80px;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .brief .More{
         margin-top: 30px;
         margin-left: -5.5%;
@@ -88,20 +107,20 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .brief h2{
         width: 450px;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .brief p{
         width: 250px;
         font-size: 20px;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .News{
         flex-direction: row;
         padding: 5px 25px;
@@ -109,28 +128,28 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .News #One{
         flex: 30%;
         border-bottom: none;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .News #Two{
         flex: 30%;
         border-bottom: none;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .News #Three{
         flex: 30%;
         border-bottom: none;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     #footer{
         flex-direction: row;
         height: 100%;
@@ -138,7 +157,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 107px){
     #footer .blocks{
         flex: 30%;
         width: 100%;
@@ -146,13 +165,13 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     #footer .blocks p{
        width: 150px;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     #footer .blocks img{
        transform: scale(0.6);
        margin-left: -40%;
@@ -162,7 +181,7 @@
 
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .copyright{
         display: flex;
         flex-direction: row;
@@ -173,7 +192,7 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 740px){
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .topnav .Wrap .dropdown-content{
         width: 95%;
 }

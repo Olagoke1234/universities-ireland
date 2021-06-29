@@ -43,6 +43,7 @@ body{
     letter-spacing: 2px;
     font-weight: bolder;
     text-align: justify;
+    width: 98%;
 }
 
 #logo .lettering h2{
@@ -54,6 +55,7 @@ body{
     letter-spacing: 2px;
     font-weight: bolder;
     text-align: right;
+    width: 98%;
 }
 
 .topnav{

@@ -96,14 +96,13 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1007px){
+@media screen and (min-width: 600px){
     .top-background{
         background-image: url(./images/study.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: auto;
-        padding-top: 0px;
-        margin-top: 0px;
+        height: initial;
+        
         
     }
 }
@@ -273,14 +272,24 @@
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .brief h2{
-        width: 450px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .brief p{
-        width: 250px;
+        width: 60%;
         font-size: 20px;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .brief p{
+        width: 40%;
+        font-size: 20px;
+        line-height: 1.8rem;
+        padding-bottom: 10%;
     }
 }
 
@@ -288,13 +297,29 @@
     .News{
         flex-direction: row;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 100%;     
+    }
+}
 
-        
+@media screen and (min-width: 600px){
+    .News #One p{
+       border-bottom: none;        
+       width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 600px){
+    .News #Two p{
+       border-bottom: none;    
+       width: 80%;    
+    }
+}
+
+@media screen and (min-width: 600px){
+    .News #Three p{
+       border-bottom: none;        
+       width: 80%;
     }
 }
 

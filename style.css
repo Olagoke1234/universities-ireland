@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
 }
 
 body{
     background-color: #e2eafa ;
     line-height: 1;
     opacity: 1;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 
@@ -318,13 +322,16 @@ body{
 
 
 .News{
+    display: flex;
     padding: 15px;
     display: flex;
     flex-direction: column;
     color: #003399;
+    
 }
 
 .News #One{
+    flex: 30%;
     padding-bottom: 10px;
     color: black;
     font-size: 13px;
@@ -333,6 +340,7 @@ body{
 }
 
 .News #Two{
+    flex: 30%;
     padding-bottom: 10px;
     color: black;
     font-size: 13px;
@@ -341,6 +349,7 @@ body{
 }
 
 .News #Three{
+    flex: 30%;
     padding-bottom: 10px;
     color: black;
     font-size: 13px;

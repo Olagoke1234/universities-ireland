@@ -7,6 +7,70 @@
     }
 }
 
+@media screen and (min-width: 1008px){
+    .topic-section .topics .Read-More{
+        bottom: 3%;
+        left: 25%;
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topic-section{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 33.5%;
+    opacity: 0.6;
+    margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topic-section .topics{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 220px;
+    background-color: whitesmoke;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topic-section .topics >div img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        top: -18%;
+        left: 85%;
+              
+     
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topic-section .topics >div h3{
+        text-align: center;
+        width: 140%;
+        margin-left: -32%;
+        margin-top: -6%;
+     
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topic-section .topics >div p{
+        text-align: center;
+        width: 135%;
+        margin-left: -28%;
+        margin-top: 1%;
+    }
+}
+
+
 @media screen and (min-width: 600px) and (max-width: 1007px){
     body{
         background-color: #e2eafa;
@@ -14,6 +78,13 @@
     }
 }
 
+
+@media screen and (min-width: 1008px){
+    body{
+        background-color: white;
+        
+    }
+}
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .topmost{
@@ -69,22 +140,115 @@
     }
 }
 
+
+
+
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .litaf{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    opacity: 0.8;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .litaf{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    opacity: 0.8;      
+    margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .litaf .literature h2{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .litaf .literature h2{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .litaf .literature p{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .litaf .literature p{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .litaf .literature li{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .litaf .literature li{
+    width: 100%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .affiliates{
-        padding: 10px;
-        margin-top: 80px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
     height: auto;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: whitesmoke;
+    
+    }
+}
+
+
+@media screen and (min-width: 1008px){
+    .literature{
+        flex: 60%; 
+        padding-left: 8%;
+        
+    }
+}
+@media screen and (min-width: 1008px){
+    .affiliates{
+    flex: 40%;
+    margin-top: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: whitesmoke;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+        }
+}
+
+
+@media screen and (min-width: 1008px){
+    .affiliates >div {
+    width: 37%;
+        
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .affiliates img{
+        padding-top: 0px;
     }
 }
 
@@ -120,36 +284,22 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1007px){
+@media screen and (min-width: 600px){
     .News{
         flex-direction: row;
-        padding: 5px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        
     }
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1007px){
-    .News #One{
-        flex: 30%;
-        border-bottom: none;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1007px){
-    .News #Two{
-        flex: 30%;
-        border-bottom: none;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1007px){
-    .News #Three{
-        flex: 30%;
-        border-bottom: none;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1007px){
+@media screen and (min-width: 600px){
     #footer{
         flex-direction: row;
         height: 100%;

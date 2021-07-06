@@ -1,3 +1,93 @@
+@media screen and (min-width: 1008px){
+    .topnav .dropbtn{
+        visibility: hidden;
+       
+    }
+}
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .topnav .Wrap .dropdown-content {
+        width: 85%;        
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topnav .Wrap .dropdown-content{
+        visibility: visible;
+        margin-top: -350px;
+        width: 80%;
+        margin-left: -10%;
+        text-align: left;
+        background-color: #003399;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .topnav .Wrap .dropdown-content ul{
+        width: 100%;
+        padding-right: 20px;
+        
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topnav .Wrap .dropdown-content ul{
+        width: 1050px;
+        text-align: left;
+       
+        
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
+    .topnav .Wrap .dropdown-content ul li{
+        list-style: none;
+        padding: 10px;
+        width: 100%;
+        background-color: #003399;
+        border-bottom: 1px darkgoldenrod dotted;
+        
+    }
+}
+
+
+@media screen and (min-width: 1008px){
+    .topnav .Wrap .dropdown-content ul li{
+        width: 12%;
+        display: inline;
+        line-height: 2.5rem;
+        border: 1px darkgoldenrod dotted;
+        height: inherit;
+        background-color: #003399;
+        text-align: left;
+          }
+}
+
+
+@media screen and (min-width: 1008px){
+    .topnav .Wrap .dropdown-content ul li:hover{
+       
+        background-color: #91a9d8;
+        color: bisque;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .topnav .Wrap .dropdown-content ul li a{
+        padding: 5px;
+        font-size: 16px;
+    }
+}
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .topic-section .topics .Read-More{
@@ -108,34 +198,49 @@
 }
 
 
-@media screen and (max-width: 599px){
-    #logo{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    padding-left: 20px;
-    margin: 20px 0px;
-    width: 100%;
-    }
-}
+
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
     #logo{
     align-items: flex-start;
     justify-content: flex-start;
     text-align: center;
-    width: 100%;
     padding-left: 20px;
-    margin: 20px 0px;
-    width: 500px;
+    margin: 20px 35px;
+    width: 240px;
     background: inherit;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1007px){
+    #logo .borderlines{
+    width: 100%;
+   }
+}
+
+@media screen and (min-width: 1008px){
+    #logo{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    width: 100%;
+    background: inherit;
+    }
+}
+
+
+@media screen and (min-width: 1008px){
+    #logo .borderlines{
+    width: 220px;
+   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1007px){
     .topnav .dropbtn{
-    width: 95%;
+    width: 85%;
     }
 }
 
@@ -276,6 +381,11 @@
     }
 }
 
+@media screen and (min-width: 1008px){
+    .brief h2{
+        margin-top: 20px;
+}
+}
 @media screen and (min-width: 600px) and (max-width: 1007px){
     .brief p{
         width: 60%;
@@ -366,9 +476,12 @@
     }
 }
 
-
-@media screen and (min-width: 600px) and (max-width: 1007px){
-    .topnav .Wrap .dropdown-content{
-        width: 95%;
-}
+@media screen and (min-width: 1008px){
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
 }

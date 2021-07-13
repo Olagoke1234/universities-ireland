@@ -186,7 +186,7 @@
 
 @media screen and (min-width: 600px){
     .top-background{
-        background-image: url(./images/study.jpg);
+        background-image: url(../images/study.JPG);
         background-repeat: no-repeat;
         background-size: cover;
         height: initial;

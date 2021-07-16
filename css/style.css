@@ -39,6 +39,14 @@ body{
     width: 100%;
 }
 
+.SAR-Ireland a {
+    line-height: 3em;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+}
+
 #logo .borderlines{
     height: 10px;
     background-color: #003399;

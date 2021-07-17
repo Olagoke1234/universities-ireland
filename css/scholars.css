@@ -8,6 +8,8 @@
 body{
     margin: 0;
     background-color: #e2eafa ;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .top-background {
@@ -29,6 +31,13 @@ body{
     background-color: #003399;
 }
 
+@media screen and (min-width:1024px){
+    .top-background .topmost #top-strip{
+        width: 200%;
+    }
+
+}
+
 .top-background .topmost #logo {
     width: 100%;
     height: auto;
@@ -46,6 +55,15 @@ body{
     justify-content: flex-start;
     }
 }
+
+@media screen and (min-width: 1008px){
+    .top-background .topmost #logo {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+}
+
 
 .top-background .topmost #logo .borderlines {
     width: 230px;
@@ -111,6 +129,13 @@ body{
 }
 
 
+@media screen and (min-width: 1008px){
+    .top-nav .button .dropbutton{
+        visibility: hidden;
+    }
+}
+
+
 .top-nav .Wrap {
     position: relative;
     width: 100%;
@@ -154,7 +179,13 @@ body{
     z-index: 1;
 }
 
-
+@media screen and (min-width: 1008px){
+    .top-nav .Wrap .menu-content{
+        visibility: visible;
+        width: 100%;
+        margin-top: -280px;
+    }
+}
 
 .top-nav .Wrap  .toggler:checked ~.menu-content {
     visibility: visible;
@@ -175,16 +206,53 @@ body{
     }
 }
 
+@media screen and (min-width: 1008px){
+    .top-nav .Wrap .menu-content ul{
+        width: 96%;
+        background-color: #003399;
+        display: flex;
+        padding: 0.5px;
+        
+    }
+}
+
 .top-nav .Wrap .menu-content ul li{
    text-align: center; 
    padding: 5px;
    border-bottom: 1px dotted goldenrod;
    list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
+
+@media screen and (min-width: 1008px){
+    .top-nav .Wrap .menu-content ul li{
+       
+        width: 12%;
+        margin: 5px;
+         border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .top-nav .Wrap .menu-content ul li:hover{
+        opacity: 0.7;
+        border-bottom: 0.5px dotted goldenrod;
+    }
+}
+
 
 .top-nav .Wrap .menu-content ul li a{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (min-width: 1008px){
+    .top-nav .Wrap .menu-content ul li a{
+        color: white;
+        font-size: 15px;
+    }
 }
 
 .midsection {
@@ -280,6 +348,15 @@ body{
 }
 
 
+@media screen and (min-width: 1008px){
+    .contact-section{
+        display: flex;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+
 .contact-section .contact {
     width: 90%;
     background-color: whitesmoke;
@@ -357,6 +434,13 @@ body{
 }
 }
 
+@media screen and (min-width: 1008px){
+    .contact-section .SAR-links{
+        margin-top: 0px;
+
+    }
+}
+
 
 .contact-section .SAR-links .links {
     background-color: brown;
@@ -379,6 +463,17 @@ body{
     }
 }
 
+@media screen and (min-width: 1008px){
+    .IPP{
+        position: relative;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .partnership {
     width: 100%;
     display: flex;
@@ -396,6 +491,12 @@ body{
         right: 20px;
         top: -805px;
        
+    }
+}
+
+@media screen and (min-width: 1008px){
+    .partnership{
+        margin-bottom: 70px;   
     }
 }
 
@@ -471,6 +572,15 @@ body{
     }
 }
 
+@media screen and (min-width: 1008px){
+    .SAR-Ireland{
+        position: absolute;
+        left: 55px;
+        margin-bottom: 30px;
+        top: 320px;
+        width: 96%;
+    }
+}
 
 
 .SAR-Ireland a {
@@ -505,6 +615,16 @@ body{
         
     }
 }
+
+
+@media screen and (min-width: 1008px){
+    .participation{
+        padding-left: 35px;
+        margin-top: 70px;
+        
+    }
+}
+
 
 @media screen and (min-width: 600px) and (max-width:1007px){
     .participation .doublestrip{
@@ -558,6 +678,14 @@ hr{
     }
 }
 
+@media screen and (min-width: 1008px){
+    .footer{
+        margin-top: 30px;
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 600px) and (max-width:1007px){
     .footer .blocks{
         display: flex;
@@ -566,13 +694,38 @@ hr{
     }
 }
 
+@media screen and (min-width: 1008px){
+    .footer .blocks{
+        display: flex;
+        flex-direction: row;
+        padding: 25px 25px;
+    }
+}
+
+
+
+
 @media screen and (min-width: 600px) and (max-width:1007px){
     .footer .blocks .one{
         flex: 30%;
     }
 }
 
+@media screen and (min-width: 1008px){
+    .footer .blocks .one{
+        flex: 30%;
+    }
+}
+
+
+
 @media screen and (min-width: 600px) and (max-width:1007px){
+    .footer .blocks .two{
+        flex: 30%;
+    }
+}
+
+@media screen and (min-width: 1008px){
     .footer .blocks .two{
         flex: 30%;
     }
@@ -584,6 +737,14 @@ hr{
         flex: 30%;
     }
 }
+
+
+@media screen and (min-width: 1008px){
+    .footer .blocks .three{
+        flex: 30%;
+    }
+}
+
 
 .footer .blocks >div h2 {
     color: white;
@@ -613,7 +774,6 @@ hr{
     align-items: center;
     height: 60px;
 }
-
 .copyright {
     color: #003399;
     font-size: 0.9rem;
